@@ -36,6 +36,7 @@ function App() {
     <ApolloProvider client={client}>
       <div className="App">
         <h1>Posts.....</h1>
+        <h2>Another post</h2>
         <PostsList />
       </div>
     </ApolloProvider>
